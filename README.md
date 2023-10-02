@@ -1,5 +1,9 @@
 # `@studion/prettier-config`
 
+[![install size](https://badgen.net/packagephobia/install/@studion/prettier-config)](https://packagephobia.now.sh/result?p=@studion/prettier-config)
+[![npm package version](https://badgen.net/npm/v/@studion/prettier-config)](https://npm.im/@studion/prettier-config)
+[![github license](https://badgen.net/github/license/ExtensionEngine/prettier-config?service=github)](https://github.com/ExtensionEngine/prettier-config/blob/master/LICENSE)
+
 Studion [Prettier](https://prettier.io) config 💄.
 
 ## Installation 💻
@@ -25,15 +29,10 @@ $ npm i -D prettier @studion/prettier-config
 - **OR** create `.prettierrc.js` file if you need to override the base config:
 
 ```js
-import baseConfig from "@studion/prettier-config";
+const baseConfig = require("@studion/prettier-config");
 
-export default {
+module.export = {
   ...baseConfig,
   trailingComma: "none",
 };
 ```
-
-## TODO 📝
-
-- [ ] Add npm publish script (release-it)
-- [ ] Add circleci config

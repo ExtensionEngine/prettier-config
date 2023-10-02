@@ -1,7 +1,13 @@
 {
   "name": "@studion/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Studion Prettier config",
+  "keywords": [
+    "prettier",
+    "prettier config",
+    "config",
+    "Studion"
+  ],
   "homepage": "https://github.com/ExtensionEngine/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/ExtensionEngine/prettier-config/issues"
@@ -15,9 +21,18 @@
   },
   "main": "index.json",
   "scripts": {
+    "release": "release-it",
     "test": ""
+  },
+  "devDependencies": {
+    "release-it": "^16.2.1"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
   }
 }
