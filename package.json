@@ -1,6 +1,6 @@
 {
   "name": "@studion/prettier-config",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Studion Prettier config",
   "keywords": [
     "prettier",
